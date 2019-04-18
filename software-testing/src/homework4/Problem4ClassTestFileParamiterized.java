@@ -20,7 +20,7 @@ public class Problem4ClassTestFileParamiterized {
 	
 	@Test
 	@FileParameters("src/homework4/Problem4.csv")	
-	public void test(int testcaseNumber, double cart, boolean firstTimeBuyer, boolean goldStatus, int bonusPoints, 
+	public void testDetermineMemberBonus(int testcaseNumber, double cart, boolean firstTimeBuyer, boolean goldStatus, int bonusPoints, 
 			double taxRate, double total, boolean memberBonus) {		
 		p4Class.determineMemberBonus(cart, firstTimeBuyer, goldStatus, bonusPoints, taxRate);
 		

@@ -20,7 +20,7 @@ public class Problem3ClassTestFileParamiterized {
 	
 	@Test
 	@FileParameters("src/homework4/Problem3.csv")	
-	public void test(int testcaseNumber, double distance, int count, boolean greenLight, 
+	public void testSetWarnings(int testcaseNumber, double distance, int count, boolean greenLight, 
     		boolean yellowLight, boolean redLight, boolean buzzer, boolean brakes, int count2) {		
 		p3Class.setCount(count);
 		p3Class.setWarnings(distance);

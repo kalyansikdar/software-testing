@@ -20,7 +20,7 @@ public class Problem5ClassTestFileParamiterized {
 	
 	@Test
 	@FileParameters("src/homework4/Problem5.csv")	
-	public void test(int testcaseNumber, double x, double y) {		
+	public void testCalcY(int testcaseNumber, double x, double y) {		
 		
 		assertEquals(y,p5Class.calcY(x), .001);
 	}

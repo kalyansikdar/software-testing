@@ -1,4 +1,4 @@
-package homework4;
+package homework;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;

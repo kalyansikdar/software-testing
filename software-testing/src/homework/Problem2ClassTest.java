@@ -1,4 +1,4 @@
-package homework4;
+package homework;
 
 import static junitparams.JUnitParamsRunner.$;
 import static org.junit.Assert.assertEquals;

@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="/home/skalyan/My World/Porashona/MS Studies/Software Testing/JUnitParams-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/home/skalyan/My World/Porashona/MS Studies/Software Testing/easymock-3.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

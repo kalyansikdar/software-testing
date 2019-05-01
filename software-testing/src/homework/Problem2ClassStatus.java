@@ -1,3 +1,3 @@
-package homework4;
+package homework;
 
 public enum Problem2ClassStatus {NorthernHemisphere,SouthernHemisphere}

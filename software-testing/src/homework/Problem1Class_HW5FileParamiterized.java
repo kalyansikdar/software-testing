@@ -9,7 +9,7 @@ import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;
 
 @RunWith(JUnitParamsRunner.class)
-public class Problem1Class_Hw5FileParamiterized {
+public class Problem1Class_HW5FileParamiterized {
 
 	private Problem1Class_HW5 p1Class;
 	
@@ -19,8 +19,9 @@ public class Problem1Class_Hw5FileParamiterized {
 	}
 	
 	@Test
-	@FileParameters("src/homework/Problem1_HW5_review.csv")	
-	public void testSpecialOrder(int testcaseNumber, boolean deepDish, double ordAmount, int numPizzas, double discount, boolean specialOrderStatus, double total) {		
+	@FileParameters("src/homework/Problem1_HW5.csv")	
+	public void testSpecialOrder(int testcaseNumber, boolean deepDish, double ordAmount, int numPizzas, 
+			double discount, boolean specialOrderStatus, double total) {		
 		p1Class.specialOrder(deepDish, ordAmount, numPizzas);
 		
 		assertEquals(total, p1Class.getTotal(), .01);

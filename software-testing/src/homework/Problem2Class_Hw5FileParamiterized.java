@@ -19,7 +19,7 @@ public class Problem2Class_Hw5FileParamiterized {
 	}
 	
 	@Test
-	@FileParameters("src/homework/Problem2_new.csv")	
+	@FileParameters("src/homework/Problem2_HW5.csv")	
 	public void testSpecialOrder(int testcaseNumber, boolean existingMember, boolean validDiscount, 
 			int memberPoints, double total, double expTotal) {		
 		double result = p2Class.calcTotal(total, existingMember, validDiscount, memberPoints);
